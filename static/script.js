@@ -1,0 +1,1 @@
+function capture() { alert('Capture clicked - integrate webcam API here'); }
