@@ -15,3 +15,4 @@ Initiate deployment via Docker orchestration: the furnished `Dockerfile` provisi
 Unit test suites in `tests/` (pytest-compatible) validate authentication latency (<500ms on i7/RTX3060), accuracy (>99% on LFW benchmark subsets), and liveness FAR/FRR (<0.1% via CASIA-FASD corpus analogs). The static triad (`index.html`, `script.js`, `style.css`) instantiates a responsive webcam capture harness, leveraging MediaDevices API for getUserMedia streams and canvas-based JPEG serialization to `/auth`. Future extensibility encompasses iris crypt feature extraction, voiceprint mel-frequency cepstral coefficients, or behavioral gait biometrics, conjoined via ensemble classifiers (e.g., XGBoost meta-learner). This repository thus constitutes a prodigious foundation for enterprise-grade, FIDO2-compliant authentication strata. [web:42][web:44][web:45]
 
 ## Quick Start
+Visit `http://localhost:5000` for live demo.
